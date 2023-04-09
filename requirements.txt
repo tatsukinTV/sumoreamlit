@@ -7,4 +7,3 @@ pydeck
 requests
 gspread
 Pillow
-math
