@@ -6,5 +6,5 @@ numpy
 pydeck
 requests
 gspread
-PIL
+Pillow
 math
