@@ -20,8 +20,8 @@ import altair as alt
 
 #################### matplotlib関連 #####################
 
-import matplotlib.pyplot as plt
-import japanize_matplotlib
+# import matplotlib.pyplot as plt
+# import japanize_matplotlib
 
 ###################### seaborn関連 ######################
 
@@ -357,15 +357,15 @@ if phase == '物件選定' :
                         # )
 
 
-                        fig = plt.figure() 
-                        ax = fig.add_subplot()
-                        ax.bar(df_rank.index, df_rank['評価ポイント'])
-                        ax.set_ylim(0, 10, 1)
-                        # ax.set_yticks([0, 1, 2])
-                        ax.set_title('評価ポイント')
-                        ax.set_xlabel('物件名')
-                        ax.set_ylabel('ポイント')
-                        plt.tight_layout()
+#                         fig = plt.figure() 
+#                         ax = fig.add_subplot()
+#                         ax.bar(df_rank.index, df_rank['評価ポイント'])
+#                         ax.set_ylim(0, 10, 1)
+#                         # ax.set_yticks([0, 1, 2])
+#                         ax.set_title('評価ポイント')
+#                         ax.set_xlabel('物件名')
+#                         ax.set_ylabel('ポイント')
+#                         plt.tight_layout()
 
                         # sns.set(font="IPAexGothic")
                         # fig = sns.pairplot(df_rank)
