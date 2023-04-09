@@ -1,0 +1,11 @@
+streamlit
+folium
+streamlit_folium
+pandas
+numpy
+pydeck
+requests
+gspread
+matplotlib.pyplot as plt
+PIL
+math
