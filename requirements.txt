@@ -6,6 +6,5 @@ numpy
 pydeck
 requests
 gspread
-matplotlib.pyplot
 PIL
 math
