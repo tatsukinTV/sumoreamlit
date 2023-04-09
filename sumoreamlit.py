@@ -29,8 +29,8 @@ import altair as alt
 
 ###################### plotly関連 #######################
 
-import plotly.figure_factory as ff
-import plotly.graph_objects as go
+# import plotly.figure_factory as ff
+# import plotly.graph_objects as go
 
 ################## streamlit ページ設定 ##################
 
