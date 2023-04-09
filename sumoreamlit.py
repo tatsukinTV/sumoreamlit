@@ -473,11 +473,11 @@ elif phase == 'LINEへの通知' :
 #     #画像ファイルのパスを指定
 #     image_file = r'C:\Users\tatsu\再SUUMO発表デモ\前回の物件情報.png'
 
-    #バイナリデータで読み込む
-    binary = Image.open('サウナ.png')
-    #指定の辞書型にする
-    image_dic = {'imageFile': binary}
+#     #バイナリデータで読み込む
+#     binary = open(image_file, mode='rb')
+#     #指定の辞書型にする
+#     image_dic = {'imageFile': binary}
 
     #LINEに画像とメッセージを送る
-    requests.post(api_url, headers=TOKEN_dic, data=send_dic1, files=image_dic)
+    requests.post(api_url, headers=TOKEN_dic, data=send_dic1)
     requests.post(api_url, headers=TOKEN_dic, data=send_dic2)
