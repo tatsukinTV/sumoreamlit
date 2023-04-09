@@ -470,11 +470,11 @@ elif phase == 'LINEへの通知' :
     send_dic1 = {'message': send_contents}
     send_dic2 = {'message': send_suumo_link}
 
-    #画像ファイルのパスを指定
-    image_file = r'C:\Users\tatsu\再SUUMO発表デモ\前回の物件情報.png'
+#     #画像ファイルのパスを指定
+#     image_file = r'C:\Users\tatsu\再SUUMO発表デモ\前回の物件情報.png'
 
     #バイナリデータで読み込む
-    binary = open(image_file, mode='rb')
+    binary = Image.open('サウナ.png')
     #指定の辞書型にする
     image_dic = {'imageFile': binary}
 
